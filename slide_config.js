@@ -22,7 +22,7 @@ var SLIDE_CONFIG = {
 
   // Author information
   presenters: [{
-    name: 'Ansuman Bebarta & Abhisekh Jaiswal',
+    name: 'Ansuman Bebarta & Ashok Kumar Samantray',
     company: 'Team Members | Bhubaneswar Pythonists',
     //meetup: 'http://bit.ly/1xcTaJW',
     //facebook: 'http://www.facebook.com/bhubaneswarpythonists'
