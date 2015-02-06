@@ -45,48 +45,53 @@ URL: https://code.google.com/p/io-2012-slides
 
   <slide>
     <hgroup>
-      <h2>Brief History of Python</h2>
+      <h2><u>Brief History of Python:</u></h2>
     </hgroup>
     <article>
       <ul>
-        <li>Invented in the Netherlands, early 90s by Guido van Rossum</li>
-        <li>Named after Monty Python
-        <li>Open sourced from the beginning</li>
-        <li>Considered a scripting language, but is much more</li>
-        <li>Scalable, object oriented and functional from the beginning</li>
-	<li>Used by Google from the beginning</li>
-	<li>Increasingly popular</li>
+        <li>Invented in the Netherlands, early 90s by Guido van Rossum.</li><br>
+        <li>Named after Monty Python.</li><br>
+        <li>Open sourced from the beginning.</li><br>
+        <li>Considered a scripting language, but is much more.</li><br>
+        <li>Scalable, object oriented and functional from the beginning.</li><br>
+	<li>Used by Google from the beginning.</li><br>
+	<li>Increasingly popular.</li>
       </ul>
     </article>
   </slide>
 
   <slide>
     <hgroup>
-      <h2>Installation of Python</h2>
+      <h2><u>Installation of Python:</u></h2>
     </hgroup>
     <article>
-      <p>A list where items build:</p>
+      <p><b>A list where items build:</b></p>
       <ul class="build">
-        <li>Python is pre-installed on most Unix systems, including Linux and MAC OS X</li>
-        <li>The pre-installed version may not be the most recent one (2.7.8 and 3.4.2 as of Dec '14)</li>
-        <li>Download from http://python.org/download/</li>
-        <li>Python comes with a large library of standard modules</li>
-        <li>There are several options for an IDE</li>
-        <li>IDLE – works well with Windows</li>
+        <li>Python is pre-installed on most Unix systems, including Linux and MAC OS X.</li><br>
+        <li>The pre-installed version may not be the most recent one (2.7.8 and 3.4.2 as of Dec '14).</li><br>
+        <li>Download from http://python.org/download/</li><br>
+        <li>Python comes with a large library of standard modules.</li><br>
+        <li>There are several options for an IDE.</li><br>
+        <li>IDLE – works well with Windows.</li>
       </ul>
     </article>
   </slide>
 
   <slide>
     <hgroup>
-      <h2>Naming Convention</h2>
+      <h2><u>Naming Convention:</u></h2>
     </hgroup>
     <article class="smaller">
       <ul>
-        <li>Names are case sensitive and cannot start with a number.  They can contain letters, numbers, and 		underscores.
-	<br><b> bob    Bob <br>   _bob    _2_bob_  <br>  bob_2    BoB</b></li>
-	<h3>Some reserved words:</h3>
-	<li>and, assert, break, class, continue,<br> def, del, elif, else, except,<br> exec, finally, for, from, global,<br>if, import, in, is, lambda,<br> not, or, pass, print, raise, return, try, while</li>
+        Names are case sensitive and cannot start with a number.  They can contain letters, numbers, and underscores.<br><br>
+	<pre><b> bob		Bob		_bob		_2_bob_		bob_2		BoB</b></pre>
+	<h3><b>Some reserved words:</b></h3>
+	<table><tr><td>and, assert, break, class, continue</td></tr>
+		<tr><td>def, del, elif, else, except</td></tr>
+		<tr><td> exec, finally, for, from, global</td></tr>
+		<tr><td>if, import, in, is, lambda, not</td></tr>
+		<tr><td>or, pass, print, raise, return, try, while</td></tr>
+	</table>
       </ul>
     </article>
   </slide>
@@ -95,180 +100,163 @@ URL: https://code.google.com/p/io-2012-slides
     Hidden slides are left out of the presentation.
   </slide>
 
-  <slide>
+   <slide>
     <hgroup>
-      <h2>Sequence Types</h2>
-    </hgroup>
-    <article>
-      
-      Tuple: (‘john’, 32, [CMSC])
-	<ul>
-	<li>A simple immutable ordered sequence of items</li><br>
-	<li>Items can be of mixed types, including collection types</li></ul><br>
-	Strings: “John Smith”
-	<ul>
-	<li>Immutable</li><br>
-	<li>Conceptually very much like a tuple</li></ul><br>
-	List: [1, 2, ‘john’, (‘up’, ‘down’)]
-	<ul><li>Mutable ordered sequence of items of mixed types</li></ul>
-
-
-    </article>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>Sequence Type</h2>
-    </hgroup>
-    <article class="smaller">
-	Define tuples using parentheses and commas
-	<li>>>> tu = (23, ‘abc’, 4.56, (2,3), ‘def’)</li><br>
-	Define lists are using square brackets and commas
-	<li>>>> li = [“abc”, 34, 4.34, 23]</li><br>
-	Define strings using quotes (“, ‘, or “““).
-	<li>>>> st = “Hello World”</li>
-	<li>>>> st = ‘Hello World’</li>
-	<li>>>> st = “““This is a multi-line<br>
-	string that uses triple quotes.”””</li>
-    </article>
-  </slide>
-
-  <slide>
-    <aside class="note">
-      <section>
-        <ul>
-          <li>Point I wanted to make #1</li>
-          <li>Point I wanted to make #2</li>
-          <li>Point I wanted to make #3</li>
-          <li>Example <a href="#">link</a> in notes.</li>
-        </ul>
-        <p><b>Remember to say this tag line!</b></p>
-      </section>
-    </aside>
-    <hgroup>
-      <h2>Python Build-in types</h2>
+      <h2><u>Python Build-in types:</u></h2>
     </hgroup>
     <article>
       <p>
-	<li>Numbers     --     3.1415</li><br>
-	<li>Strings        --   “Hello World”</li><br>
-	<li>Lists         --       [1,2,3,4]</li><br>
-	<li>Dictionaries   --   {‘test’: ‘yum’}</li><br>
-	<li>Files         --       input=open(‘file.txt’, ‘r’)</li><br>
+	<li>Numbers     -->     3.1415</li><br>
+	<li>Strings        -->   “Hello World”</li><br>
+	<li>Lists         -->       [1,2,3,4]</li><br>
+	<li>Dictionaries   -->   {‘test’: ‘yum’}</li><br>
+	<li>Files         -->       input=open(‘file.txt’, ‘r’)</li><br>
 	</p>
     </article>
   </slide>
 
   <slide>
-    <aside class="note">
-      <section>
-        <ul>
-          <li>See this amazing link: <a href="http://www.google.com">link</a>.</li>
-        </ul>
-        <p><b>Remember to say this tag line!</b></p>
-      </section>
-    </aside>
     <hgroup>
-      <h2>Whitespace & Indentation in Python</h2>
+      <h2><u>Comments:</u></h2>
     </hgroup>
     <article>
-      <p>Whitespace is meaningful in Python: especially indentation and placement of newlines<br>
+      <p>
+	<li>Can include a “documentation string” as the first line of a new function or class you define</li><br>
+	<li>Development environments, debugger, and other tools use it: it’s good style to include one</li><br>
+	<br>def fact(n):<br>
+	"add indentation"	  “““fact(n) assumes n is a positive integer and returns facorial of n.”””<br>
+		assert(n>0)<br>
+
+		return 1 if n==1 else n*fact(n-1) <br>
+	<br><li>Start comments with #, rest of line is ignored</li>
+	</p>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2><u>Sequence Types:</u></h2>
+    </hgroup>
+    <article>
+      
+      <b><u>Tuple:</u> (‘john’, 32, [CMSC])</b>
+	<ul><br>
+	<li>A simple immutable ordered sequence of items</li><br>
+	<li>Items can be of mixed types, including collection types</li></ul>
+	<b><u>Strings:</u> “John Smith”</b>
+	<ul><br>
+	<li>Immutable</li><br>
+	<li>Conceptually very much like a tuple</li></ul>
+	<b><u>List:</u> [1, 2, ‘john’, (‘up’, ‘down’)]</b>
+	<ul><br><li>Mutable ordered sequence of items of mixed types</li></ul>
+
+
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2><u>Sequence Types:</u></h2>
+    </hgroup><br>(contd..)
+    <article class="smaller">
+	<br><b>Define tuples using parentheses and commas:</b><br>
+	<br>>>> tu = (23, ‘abc’, 4.56, (2,3), ‘def’)<br>
+	<br><b>Define lists are using square brackets and commas:</b><br>
+	<br>>>> li = [“abc”, 34, 4.34, 23]<br>
+	<br><b>Define strings using quotes (“, ‘, or “““):</b><br>
+	<br>>>> st = “Hello World”<br>
+	<br>>>> st = ‘Hello World’<br>
+	<br>>>> st = “““This is a multi-line<br>
+	string that uses triple quotes.”””
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2><u>Whitespace & Indentation in Python:</u></h2>
+    </hgroup>
+    <article>
+      <p><b>Whitespace is meaningful in Python, especially indentation and placement of newlines</b><br>
 	<li>Use a newline to end a line of code</li><br>
 	<li>Use \ when must go to next line prematurely</li><br>
 	<li>No braces {} to mark blocks of code, use consistent indentation instead</li><br>
 	<li>First line with less indentation is outside of the block</li><br>
 	<li>First line with more indentation starts a nested block</li><br>
-	<li>Colons start of a new block in many constructs, e.g. function definitions, then clauses</li></p>
+	<li>Colons indicate start of a new block in many constructs, e.g. function definitions, then clauses</li></p>
     </article>
   </slide>
 
   <slide>
     <hgroup>
-      <h2>Access elements of Data Structures</h2>
+      <h2><u>Access elements of Data Structures:</u></h2>
     </hgroup>
     <article>
-      Access individual members of a tuple, list, or string using square bracket “array” notation <br>
-	<br>Note that all are 0 based… <br><br>
+      <b>Access individual members of a tuple, list, or string using square bracket “array” notation </b><br>
+	<br><li>Indexing of a structure starts from 0 </li><br>
 
 	>>> tu = (23, ‘abc’, 4.56, (2,3), ‘def’)<br>
 	>>> tu[1]     # Second item in the tuple.<br>
-	 ‘abc’<br><br>
+	 <b>‘abc’</b><br><br>
 
 	>>> li = [“abc”, 34, 4.34, 23] <br>
 	>>> li[1]      # Second item in the list.<br>
-	 34<br><br>
+	 <b>34</b><br><br>
 
 	>>> st = “Hello World”<br>
 	>>> st[1]   # Second character in string.<br>
-	 ‘e’
+	 <b>‘e’</b>
     </article>
   </slide>
 
   <slide>
     <hgroup>
-      <h2>Slide with Image (Centered horz/vert)</h2>
+      <h2><u>Positive & Negative Indexing:</u></h2>
     </hgroup>
-    <article class="flexbox vcenter">
-	>>> t = (23, ‘abc’, 4.56, (2,3), ‘def’)
-Positive index: count from the left, starting with 0
- >>> t[1] 
-‘abc’
-Negative index: count from right, starting with –1
->>> t[-3] 
+    <article>
+	>>> t = (23, ‘abc’, 4.56, (2,3), ‘def’)<br>
+<br><b>Positive index:</b> count from the left, starting with 0<br>
+ <br>>>> t[1] =
+‘abc’<br>
+<br><b>Negative index:</b> count from right, starting with –1<br>
+<br>>>> t[-3] =
 4.56
     </article>
   </slide>
 
   <slide>
     <hgroup>
-      <h2>Similarity in Syntax of Data Structures:</h2>
+      <h2><u>Similarity in Syntax of Data Structures:</u></h2>
     </hgroup>
     <article>
       <li>All three sequence types (tuples, strings, and lists) share much of the same syntax and functionality.</li><br>
-<li>Key difference:</li><br>
+<li><u>Key difference:</u></li><br>
 <ul>
-<li>Tuples and strings are immutable</li>
-<li> Lists are mutable</li></ul>
-<li>The operations shown in this section can be applied to all sequence types</li><br>
+<li>Tuples and strings are immutable.</li>
+<li> Lists are mutable.</li></ul>
+<li>The operations shown can be applied to all sequence types</li><br>
 <ul><li>most examples will just show the operation performed on one</li></ul>
     </article>
   </slide>
 
   <slide>
     <hgroup>
-      <h2>Positive & Negative Indexing</h2>
-    </hgroup>
-    <article class="smaller">
-     <br><li> >>> t = (23, ‘abc’, 4.56, (2,3), ‘def’)</li>
-<br><br>Positive index: count from the left, starting with 0
-<br><br> >>> t[1] 
-<br><br><br><li>‘abc’</li>
-<br><br>Negative index: count from right, starting with –1
-<br><br>>>> t[-3] 
-<br><br>4.56
-    </article>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>Slicing: return copy of a subset</h2>
+      <h2><u>Slicing-return copy of a subset:</u></h2>
     </hgroup>
     <article>
-      <li>>>> t = (23, ‘abc’, 4.56, (2,3), ‘def’)</li>
+      >>> t = (23, ‘abc’, 4.56, (2,3), ‘def’)<br>
 <br>
-Return a copy of the container with a subset of the original members.  Start copying at the first index, and stop copying before second.<br><br>
->>> t[1:4] <br><br>
-<li>(‘abc’, 4.56, (2,3))</li><br>
+Return a copy of the container with a subset of the original members.  Start copying at the first index, and stop copying before second from last.<br><br>
+>>> t[1:4] = 
+(‘abc’, 4.56, (2,3))<br><br>
 Negative indices count from end<br><br>
->>> t[1:-1]<br><br>
-<li>(‘abc’, 4.56, (2,3))<br></li><br>
->>> t = (23, ‘abc’, 4.56, (2,3), ‘def’)<br><br>
-Omit first index to make copy starting from beginning of the container<br>
-	>>> t[:2] <br><br>
+>>> t[1:-1] =
+(‘abc’, 4.56, (2,3))<br><br>
+Omit first index to make copy starting from beginning of the container<br><br>
+	>>> t[:2] = 
 	(23, ‘abc’)<br><br>
-Omit second index to make copy starting at first index and going to end<br>
-	>>> t[2:]<br>
-	(4.56, (2,3), ‘def’)<
+Omit second index to make copy starting at first index and going to end<br><br>
+	>>> t[2:] = 
+	(4.56, (2,3), ‘def’)
     </article>
   </slide>
 
@@ -305,11 +293,10 @@ Omit second index to make copy starting at first index and going to end<br>
     </article>
   </slide> -->
 
-  <slide class="segue dark nobackground">
-    <aside class="gdbar"><img src="images/trans.png"></aside>
-    <hgroup class="auto-fadein">
-      <h2>Segue Slide</h2>
-      <h3>Subtitle Placeholder</h3>
+  <slide>
+    <aside></aside>
+    <hgroup>
+      <b><h1>Thank you!!</h1></b>
     </hgroup>
   </slide>
 
