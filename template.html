@@ -96,22 +96,18 @@ URL: https://code.google.com/p/io-2012-slides
     </article>
   </slide>
 
-  <slide hidden>
-    Hidden slides are left out of the presentation.
-  </slide>
-
-   <slide>
+ <slide>
     <hgroup>
-      <h2><u>Python Build-in types:</u></h2>
+      <h2><u>Whitespace & Indentation in Python:</u></h2>
     </hgroup>
     <article>
-      <p>
-	<li>Numbers     -->     3.1415</li><br>
-	<li>Strings        -->   “Hello World”</li><br>
-	<li>Lists         -->       [1,2,3,4]</li><br>
-	<li>Dictionaries   -->   {‘test’: ‘yum’}</li><br>
-	<li>Files         -->       input=open(‘file.txt’, ‘r’)</li><br>
-	</p>
+      <p><b>Whitespace is meaningful in Python, especially indentation and placement of newlines</b><br>
+	<li>Use a newline to end a line of code</li><br>
+	<li>Use \ when must go to next line prematurely</li><br>
+	<li>No braces {} to mark blocks of code, use consistent indentation instead</li><br>
+	<li>First line with less indentation is outside of the block</li><br>
+	<li>First line with more indentation starts a nested block</li><br>
+	<li>Colons indicate start of a new block in many constructs, e.g. function definitions, then clauses</li></p>
     </article>
   </slide>
 
@@ -129,6 +125,25 @@ URL: https://code.google.com/p/io-2012-slides
 
 		return 1 if n==1 else n*fact(n-1) <br>
 	<br><li>Start comments with #, rest of line is ignored</li>
+	</p>
+    </article>
+  </slide>
+
+  <slide hidden>
+    Hidden slides are left out of the presentation.
+  </slide>
+
+   <slide>
+    <hgroup>
+      <h2><u>Python Build-in types:</u></h2>
+    </hgroup>
+    <article>
+      <p>
+	<li>Numbers     -->     3.1415</li><br>
+	<li>Strings        -->   “Hello World”</li><br>
+	<li>Lists         -->       [1,2,3,4]</li><br>
+	<li>Dictionaries   -->   {‘test’: ‘yum’}</li><br>
+	<li>Files         -->       input=open(‘file.txt’, ‘r’)</li><br>
 	</p>
     </article>
   </slide>
@@ -171,22 +186,7 @@ URL: https://code.google.com/p/io-2012-slides
     </article>
   </slide>
 
-  <slide>
-    <hgroup>
-      <h2><u>Whitespace & Indentation in Python:</u></h2>
-    </hgroup>
-    <article>
-      <p><b>Whitespace is meaningful in Python, especially indentation and placement of newlines</b><br>
-	<li>Use a newline to end a line of code</li><br>
-	<li>Use \ when must go to next line prematurely</li><br>
-	<li>No braces {} to mark blocks of code, use consistent indentation instead</li><br>
-	<li>First line with less indentation is outside of the block</li><br>
-	<li>First line with more indentation starts a nested block</li><br>
-	<li>Colons indicate start of a new block in many constructs, e.g. function definitions, then clauses</li></p>
-    </article>
-  </slide>
-
-  <slide>
+<slide>
     <hgroup>
       <h2><u>Access elements of Data Structures:</u></h2>
     </hgroup>
@@ -260,6 +260,48 @@ Omit second index to make copy starting at first index and going to end<br><br>
     </article>
   </slide>
 
+  <slide>
+    <hgroup>
+      <h2><u>Dictionary in Python:</u></h2>
+    </hgroup><br>
+    <article>
+      <p><br><li>Dictionaries store a mapping between a set of keys and a set of values</li><br>
+	<li>Keys can be any immutable type.</li><br>
+	<li>Values can be any type</li><br>
+	<li>A single dictionary can store values of different types</li><br>
+	<li>You can define, modify, view, lookup or delete  the key-value pairs in the dictionary</li><br>
+	<li>Python’s dictionaries are also known as hash tables and associative arrays </li><br>
+	>>> d = {‘user’:‘bozo’, ‘pswd’:1234} <br> >>> d[‘user’] <br> ‘bozo’ <br> >>> d[‘pswd’] <br>123
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2><u>Conditional Statements:</u></h2>
+    </hgroup><br>(IF-ELIF-ELSE)<br>
+    <article>
+      <p><br><li>Conditions are expressions which evaluate to true or false.</li><br>
+	<li>The basic conditional statement is IF. But, we can also use IF-ELIF-ELSE</li><br>
+	<li>The colon is required. The list of statements, must be indented–part of the syntax for Python</li><br>
+	<li>No braces {} to mark blocks of code, use consistent indentation instead</li><br>
+	<li>First line with less indentation is outside of the block</li><br>
+	<li>First line with more indentation starts a nested block</li><br>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2><u>Conditional Statements:</u></h2>
+    </hgroup><br>(FOR & WHILE loop)<br>
+    <article>
+      <p><br><li>The for statement loops over sequences.</li><br>
+	<li>Built-in function range() used to build sequences of integers</li><br>
+	<li>while statement for more traditional loops</li><br>
+	<li>Modification for condition happens inside while body.</li><br>
+	</article>
+  </slide>
+
+
   <<!-- slide>
     <hgroup>
       <h2>Slide Styles</h2>
@@ -296,7 +338,8 @@ Omit second index to make copy starting at first index and going to end<br><br>
   <slide>
     <aside></aside>
     <hgroup>
-      <b><h1>Thank you!!</h1></b>
+      
+	<img src="images/thank-you.jpg" style="position:absolute;left:20%;top:20%;">
     </hgroup>
   </slide>
 
